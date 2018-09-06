@@ -26,7 +26,7 @@ Then:
 
 ```
 cd ../../net/samba43
-(sudo) make configure (enable smb_pass option and avahi option)
+(sudo) make configure (enable pam smbpass option and avahi option)
 (sudo) make install
 (sudo) pkg lock samba43
 ```
