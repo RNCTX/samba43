@@ -35,7 +35,7 @@ This will take awhile but when you're done, you have a Samba install with smb_pa
 and enable avahi for this), and with as many security patches/avoidances as you can possibly have as of this writing.
 
 See [this post](https://forums.freebsd.org/threads/howto-samba-with-pam_smbpass-using-your-system-account-with-samba.49581/) for a 
-guide on how to set up automatic Samba password maintenance with pam_smbpass.so
+guide on how to set up automatic Samba password maintenance with pam_smbpass.so. See [this post](https://ubuntuforums.org/showthread.php?t=2369257) for a guide on how to set up Samba with the included patch to host OS X Time Machine network share(s).
 
 You can use your other Samba4 config(s), but disable NT pipe support to get around one of the unpached security exploits as mentioned above:
 
