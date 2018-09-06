@@ -4,7 +4,7 @@ Remember Samba with pam_smbpass.so?  When you didn't have to set up a domain to 
 So I backported some things from Samba 4.4+ that aren't in 4.3 since it was deprecated.  To address 4.3 security issues that
 were not patched after its deprecation, you must do the following:
 
-* Replace Kerberos with MIT kerberos (nixes the Heimdal security exploit)
+* Replace base system Kerberos with MIT kerberos (nixes the Heimdal security exploit)
 * Turn off nt pipe support (nixes the NT pipe exploit)
 * Manually install p5-Parse-Pidl44 ([link](https://svnweb.freebsd.org/ports/head/devel/p5-Parse-Pidl44/?pathrev=457765))
 
