@@ -44,3 +44,5 @@ nt pipe support = no
 ```
 
 Should you use this exposed to the internet or on a public network?  Nope.  Can you use it on a small firewalled LAN? Up to you. Enjoy
+
+Tested on FreeBSD 11.2-RELEASE and 11.1-RELEASE
